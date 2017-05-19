@@ -11,6 +11,8 @@ header {
   height: 75px;
   border-bottom: 1px solid black;
   align-items: center;
+  z-index: 10;
+  background-color: white;
 }
 
 header div {
@@ -54,7 +56,21 @@ main {
   padding-top: 40px;
   top: 76px;
   border: 1px solid black;
-  align-items: stretch;
+}
+
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .img-title {
@@ -63,7 +79,6 @@ main {
 
 div {
   border: 1px solid black;
-  padding: 0;
 }
 
 .column {
@@ -80,4 +95,30 @@ div {
 
 .column.small {
   width: 240px;
+}
+
+.flex-container {
+  display: flex;
+  height: 300px;
+}
+
+#main-story {
+  background-image: url("../images/main-story.png");
+}
+
+#main-story h2 {
+  font-size: 40px;
+  text-align: left;
+}
+
+#fall-season {
+  background-image: url("../images/fall-season.png");
+}
+
+#hipster-cameraman {
+  background-image: url("../images/hipster-cameraman.png");
+}
+
+#cat-ceo {
+  background-image: url("../images/cat-ceo.png");
 }

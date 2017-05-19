@@ -55,19 +55,24 @@ main {
   position: relative;
   padding-top: 40px;
   top: 76px;
-  /*border: 1px solid black;*/
 }
 
 h2 {
+  text-align: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  text-align: center;
   width: 100%;
 }
 
-p {
+h3 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+main p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -75,10 +80,6 @@ p {
 
 .img-title {
   margin: 0;
-}
-
-div {
-  /*border: 1px solid black;*/
 }
 
 .column {
@@ -103,6 +104,8 @@ div {
 }
 
 .flex-container {
+  display: flex;
+  align-items: center;
   height: 300px;
 }
 
@@ -117,6 +120,7 @@ div {
 
 #main-story {
   background-image: url("../images/main-story.png");
+  padding-left: 20px;
 }
 
 #main-story h2 {
@@ -151,9 +155,55 @@ div {
   flex-direction: column;
   list-style: none;
   padding: 0;
+  margin-top: 45px;
 }
 
 .column.small li {
-  padding: 12px 20px;
+  padding: 11px 20px;
   border-bottom: 1px solid black
+}
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+
+footer > div {
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+}
+
+footer > div > div {
+  align-items: center;
+  width: 105px;
+}
+
+h4 {
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  margin: 0;
+  width: 260px;
+}
+
+footer nav a {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+footer p {
+  margin: 0;
 }

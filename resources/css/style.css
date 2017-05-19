@@ -38,3 +38,39 @@ nav a {
   color: black;
   margin: 15px;
 }
+
+main {
+  margin: 0 auto;
+  width: 1230;
+  position: relative;
+  padding: 20px;
+  top: 76px;
+  display: inline-flex;
+  border: 1px solid black;
+}
+
+.img-title {
+  margin: 0;
+}
+
+div {
+  border: 1px solid black;
+  padding: 0;
+}
+
+.column {
+  margin-right: 20px;
+  height: 630px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
